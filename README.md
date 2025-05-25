@@ -3,6 +3,7 @@ here are list of AI agent application projects classfied from basic to professio
 
 ## Basic 
 ### FunctionBuilder
+This project will helep the developers write python function with unittest/
 #### initialization 
 ##### Creating miniconda environment:
 - Go to the project directory
