@@ -1,9 +1,14 @@
 from google import genai
 from google.genai import types
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 def generate_response_gemini(content):
     client = genai.Client(
-        api_key="", # add your key here
+        api_key=os.getenv("GOOGLE_API_KEY")
     )
 
     model = "gemini-2.5-flash-preview-05-20"
